@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+
+        //WAP TO CHECK THE VOTING ELIGIBILITY OF USER.
+
+        let age = prompt("enter age: ");
+        
+        if(age < 0 || age == 0 || age > 100)
+        {
+            document.write("please enter valid age !");
+        }
+        else if(age >= 18)
+        {
+            document.write("you are eligible for vote !");
+        }
+        else
+        {
+            document.write("you are not eligible for vote !");
+        }
+
+    </script>
+    
+</body>
+</html>
